@@ -4,6 +4,8 @@
 
 This is a **Spring Boot REST API** for managing products in an e-commerce system. It supports **CRUD operations**, **image upload/retrieval**, and **product search** functionality using **Spring MVC**, **Spring Data JPA**, and **H2 in-memory database**.
 
+**The frontend is built with React: E-Commerce Frontend** : https://github.com/itzarushi16/Ecom-frontend
+
 ## Features
 
 * Create, Read, Update, Delete (CRUD) operations for products
