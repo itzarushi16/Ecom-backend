@@ -54,7 +54,7 @@ public class ProductController {
         }
     }
 
-
+//
     @GetMapping("/product/{productId}/image")
     public ResponseEntity<byte[]> getImageByProductId(@PathVariable int productId) {
         Product product = service.getProductById(productId);
@@ -80,7 +80,7 @@ public class ProductController {
             return new ResponseEntity<>("Failed to update", HttpStatus.BAD_REQUEST);
     }
 
-
+//delete product
     @DeleteMapping("/product/{id}")
     public ResponseEntity<String> deleteProduct(@PathVariable int id) {
         Product product = service.getProductById(id);
