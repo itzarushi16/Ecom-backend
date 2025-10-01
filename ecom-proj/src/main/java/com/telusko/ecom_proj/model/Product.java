@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.util.Date;
 
+
 /**
  * Product entity mapped to a database table using JPA
  */
