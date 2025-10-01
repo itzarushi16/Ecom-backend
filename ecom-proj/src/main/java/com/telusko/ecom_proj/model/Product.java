@@ -37,6 +37,7 @@ public class Product {
 //to store image
     private String imageName;
     private String imageType;
+    //large object model
     @Lob
     private byte[] imageDate;
 
