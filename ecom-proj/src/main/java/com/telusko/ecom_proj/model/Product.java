@@ -10,9 +10,6 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 
-/**
- * Product entity mapped to a database table using JPA
- */
 @Entity                 // Marks this class as a JPA entity (table in DB)
 @Data                   // Lombok: generates getters, setters, toString, equals, hashCode
 @AllArgsConstructor     // Lombok: generates constructor with all fields
